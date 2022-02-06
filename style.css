@@ -1,5 +1,7 @@
 /*можемо вказувати тег або класс або ИД*/
 body {
     /*властивість, через двокрапку аргумент*/
-    background: blue;
+    background: Linen;
+<nav class="menu">
+</nav>
 }
