@@ -3,32 +3,42 @@
 <head>
     <meta charset="utf-8">
     <title>ShibaInu XRPL</title>
-    <!--    link це підвязка зовнішніх файлі, рел опис що за файл буде, тип=тип =) та греф це шлях до файлу-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--    В блоці хед тільки теги налаштування або скріпти-->
+    <style>
+        button.table1 {
+            color: rgb(255, 136, 0);
+            padding: 15px;
+            border-radius: 20px;
+            border: 2px solid #350606;
+            font-size: 20px;
+        }
+    </style>   
 </head>
-<!--that index   nav image. margin right в цсс вказувати нав баттонс бекграунд орандж мейн блок. через крампку звертатись до класів-->
 <body>
-<div></div>
-<header>
-    <!--    всі елементи які мають бути в шапці перемістив в хедер-->
-    <h1>ShibaInu on XRPL-CHAIN , 95% Airdrop for COMUNITY</h1>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").style.backgroundColor = "red";
+    document.getElementById("demo").style.color = "blue";
+}
+</script>
+<div>
+    <h1><p id="demo" onclick="myfunction()">ShibaInu on XRPL-CHAIN , 95% Airdrop for COMUNITY</p></h1>
+    <button onclick="myFunction()">Change color </button>
+    <p id="demo"></p>
+</div>
+<header>  
+    
     <nav>
         <table align="right" cellpadding="10">
             <tr>
-                <th><a href="index.html">
-                    <h1>
-                        <button>Home</button>
-                    </h1>
-                </a></th>
-                <th><a href="about.html">
-                    <h1>
-                        <button>About</button>
-                    </h1>
-                </a></th>
-                <th><a href="solutions.html"><h1>Solutions</h1></a></th>
-                <th><a href="airdrop.html"><h1>Airdrop</h1></a></th>
-                <th><a href="contacts.html"><h1>Contracts</h1></a></th>
+                <caption><p>  we have here:</p></caption>
+                <td><a href="index.html"><button class="table1">Home</button></a></td>
+                <th><a href="airdrop.html"><button class="table1">Airdrop</button></a></th>
+                <th><a href="solutions.html"><button class="table1">Solutions</button></a></th>
+                <th><a href="contacts.html"><button class="table1">Contacts</button></a></th>
+                <th><a href="about.html"><button class="table1">About</button></a></th>
+                <th><button><span style="color: blue;"><h2>span on -BLUE</h2></span>span off -BLACK</button></th>
             </tr>
         </table>
     </nav>
@@ -63,7 +73,7 @@
 
 </main>
 <footer>
-    <address>You can contact us at: <br>test@mail.ua
+    <address>You can contact us at: test@mail.ua 
     </address>
 </footer>
 <p></p>
