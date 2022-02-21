@@ -5,7 +5,13 @@ body {
     background: url(shibmain.jpg)no-repeat;
     background-size: 100%;
 }
-
+button {
+    color: rgb(255, 136, 0);
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #350606;
+    font-size: 20px;
+}
 /*header {
     width: 100%;
     display: flex;
@@ -26,7 +32,7 @@ p {
 }
 
 main {
-    background-color: aqua;
+   color: blanchedalmond;
 }
 
 footer {
