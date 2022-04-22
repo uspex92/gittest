@@ -2,20 +2,15 @@
 body {
     /*властивість, через двокрапку аргумент*/
 
-    background: url(shibmain.jpg)no-repeat;
+    
     background-size: 100%;
 }
-button3 {
+button {
     color: rgb(255, 136, 0);
     padding: 15px;
     border-radius: 20px;
     border: 2px solid #350606;
     font-size: 20px;
-}
-/*header {
-    width: 100%;
-    display: flex;
-    background-color: rgba(235, 103, 16, 0.6);
 }
 
 /*header img { 
@@ -33,6 +28,8 @@ p {
 
 main {
    color: blanchedalmond;
+   background: url(shibmain.jpg);
+   background-repeat:no-repeat;
 }
 
 footer {
@@ -49,3 +46,10 @@ footer {
     background-color: white;
 }
 
+.kakawka {
+
+color:blue;
+background-color:red;
+
+
+}
